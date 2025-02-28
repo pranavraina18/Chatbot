@@ -146,7 +146,7 @@ async def run_in_thread(func, *args):
 
 
 if __name__ == "__main__":
-    url = "https://aoltoronto.com/faq/"
+    url = "" #dd url of fqa here
 
     logging.info("Fetching FAQ data...")
     faq_data = get_questions_answers(url)
